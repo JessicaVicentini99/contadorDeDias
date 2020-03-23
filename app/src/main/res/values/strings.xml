@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Quarentena</string>
+    <string name="dias_restantes_da_qurentena">Dia da quarentena:</string>
+    <string name="voce_vai_participar">Você vai ficar em casa hoje?</string>
+    <string name="dias">° dia</string>
+    <string name="nao_confirmado">Em Casa: Não confirmado</string>
+    <string name="sim">Em Casa: Sim</string>
+    <string name="nao">Em Casa: Não</string>
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/original"
+    android:padding="8dp"
+    tools:context=".view.MainActivity">
+
+    <TextView
+        android:id="@+id/text_today"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="12/12/2012"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="26sp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/text_today"
+        android:background="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/text_label_days_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_today"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="190dp"
+        android:text="@string/dias_restantes_da_qurentena"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/text_days_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_label_days_left"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="40 dias"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/button_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button_background"
+        android:padding="24dp"
+        android:text="Sim/Não/Nao confirmado"
+        android:textColor="@color/colorTextWhite"
+        android:textSize="18sp" />
+
+</RelativeLayout>
